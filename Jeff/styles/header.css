@@ -1,0 +1,14 @@
+header {
+    background-color: #FFFFFF;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+header .park1 {
+    background-image: url(../images/park1.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    height: 100%;
+    margin-left: 20px;
+}
