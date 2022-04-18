@@ -4,10 +4,10 @@
 <head>
     <title>
     </title>
-    <link rel="flag" type="image/png" href="../images/flag.png">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="icon" type="image/x-icon" href="../images/flag2.ico">
     <!-- <link rel="stylesheet" href="styles/6-filters.css"> -->
     <!-- <link rel="stylesheet" href="styles/8-places.css"> -->
     <!-- <link rel="icon" href="images/icon.png"> -->
@@ -22,27 +22,28 @@
         <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&mode=AGENDA&showNav=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=Y19rbjg5Y2U2NW1wYjA0dm5wMXM2ZWtpZXNyZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border:solid 1px #777" width="700" height="300" frameborder="0" scrolling="no"></iframe>
     </div>
     <div class="floatright">
-        <h2>helpful links</h2>
+        <h1>Helpful links</h1>
         <p>
-            <a href="https://metrecycle.com/">Recycle with the Metropolitan Environmental Trust in Tulsa</a>
+            Recycle with the <a href="https://metrecycle.com/">Metropolitan Environmental Trust </a>in Tulsa
         </p>
         Call The Met at 918-584-0584
         <p>
-            <a
-                href="https://www.cityoftulsa.org/government/departments/streets-and-stormwater/refuse-recycling/residential-services/">Tulsa
-                trash services</a>
+            <a href="https://www.cityoftulsa.org/government/departments/streets-and-stormwater/refuse-recycling/residential-services/">Tulsa trash services</a>
             call 311 or email <a href="mailto: Tulsa311@cityoftulsa.org">Tulsa311@cityoftulsa.com</a>
         </p>
+        <p>If you are in Broken Arrow you can go to: <a href="https://www.brokenarrowok.gov/government/general-services/sanitation-divison/trash">B.A. Sanitation</a></p>
+        <p>Jenks Trash Services <a href="https://www.jenks.com/162/Trash-Recycling">Here</a></p>
+        <p>Sand Springs Trash Services <a href="https://www.sandspringsok.org/211/Trash-Service">here</a></p>
     </div>
     <div class="floatright">
-        <p>Searh for other resources with google</p>
-        <textarea id="Blah"></textarea><button onclick="search()">Search</button>
+        <p>Search for other resources with Google</p>
+        <textarea id="search"></textarea><button onclick="search()"  class="center">Search</button>
         <script>
             function search() {
-                var Blah = document.getElementById("Blah").value;
-                location.replace("https://www.google.com/search?q=" + Blah + "");
+                const search = document.getElementById("search").value;
+                location.replace("https://www.google.com/search?q=" + search + "");
             }
-        </script>>
+        </script>
     </div>
     <footer>
         <p>
