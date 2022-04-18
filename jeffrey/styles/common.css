@@ -1,0 +1,27 @@
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float:left;
+    width: 70%;
+    background-color: #640a0a;
+    height: 100pc;
+}
+
+.floatright {
+    float: right;
+    background-color: #5e825e;
+    height: 400px;
+    width: 30%;
+    font-size: larger;
+}
+
+div, iframe {
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    border-style: none;
+}

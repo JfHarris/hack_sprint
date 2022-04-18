@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-        </title>
-        <!-- <link rel="stylesheet" href="styles/4-common.css"> -->
-        <!-- <link rel="stylesheet" href="styles/3-footer.css"> -->
-        <!-- <link rel="stylesheet" href="styles/3-header.css"> -->
-        <!-- <link rel="stylesheet" href="styles/6-filters.css"> -->
-        <!-- <link rel="stylesheet" href="styles/8-places.css"> -->
-        <!-- <link rel="icon" href="images/icon.png"> -->
-    </head>
-    <body>
-        <header>
-        </header>
-        <footer>
-            <p>
-            </p>
-        </footer>
-    </body>
+
+<head>
+    <title>
+    </title>
+    <link rel="flag" type="image/png" href="../images/flag.png">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <!-- <link rel="stylesheet" href="styles/6-filters.css"> -->
+    <!-- <link rel="stylesheet" href="styles/8-places.css"> -->
+    <!-- <link rel="icon" href="images/icon.png"> -->
+</head>
+
+<body>
+    <header>
+        Spring Events to make your Garden Blossom
+    </header>
+    <div class="floatleft">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=0&showTabs=0&showCalendars=0&showTz=0&src=Y19rbjg5Y2U2NW1wYjA0dm5wMXM2ZWtpZXNyZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border:solid 1px #777" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&mode=AGENDA&showNav=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=Y19rbjg5Y2U2NW1wYjA0dm5wMXM2ZWtpZXNyZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border:solid 1px #777" width="700" height="300" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="floatright">
+        <h2>helpful links</h2>
+        <p>
+            <a href="https://metrecycle.com/">Recycle with the Metropolitan Environmental Trust in Tulsa</a>
+        </p>
+        Call The Met at 918-584-0584
+        <p>
+            <a
+                href="https://www.cityoftulsa.org/government/departments/streets-and-stormwater/refuse-recycling/residential-services/">Tulsa
+                trash services</a>
+            call 311 or email <a href="mailto: Tulsa311@cityoftulsa.org">Tulsa311@cityoftulsa.com</a>
+        </p>
+    </div>
+    <div class="floatright">
+        <p>Searh for other resources with google</p>
+        <textarea id="Blah"></textarea><button onclick="search()">Search</button>
+        <script>
+            function search() {
+                var Blah = document.getElementById("Blah").value;
+                location.replace("https://www.google.com/search?q=" + Blah + "");
+            }
+        </script>>
+    </div>
+    <footer>
+        <p>
+            Holberton Tulsa Hacksprint Projecct
+        </p>
+    </footer>
+</body>
+
 </html>
