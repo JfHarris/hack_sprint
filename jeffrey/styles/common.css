@@ -25,3 +25,8 @@ iframe {
     display: block;
     border-style: none;
 }
+
+.center {
+    display: flex;
+    vertical-align: middle;
+}
