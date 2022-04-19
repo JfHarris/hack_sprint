@@ -6,15 +6,16 @@
     float: left;
     width: 69%;
     background-color: #ac5252;
-    height: 100pc;
+    height: 75pc;
     border: 1px solid #DDDDDD;
 }
 
 .floatright {
     float: right;
     background-color: #368836;
-    height: 400px;
+    height: 75pc;
     width: 30%;
+    font-size: larger;
 }
 
 div, iframe {

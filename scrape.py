@@ -2,14 +2,18 @@
 """
 Scrapes urls from target web page
 """
-
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
 
-url = 'https://www.newson6.com/events'
-req = requests.get(url)
-result = BeautifulSoup(req.text, 'html.parser')
+urls = 'https://www.newson6.com/events'
+grab = requests.get(urls)
+soup = BeautifulSoup(grab.text, 'html.parser')
 
-urls = []
-for link in result.find_all('a'):
-    print(link.get('href'))
+
+f = open("web.txt", "w")
+for link in soup.find_all("a"):
+    data = link.get('href')
+    f.write(data)
+    f.write("\n")
+
+f.close()
