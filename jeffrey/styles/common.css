@@ -6,13 +6,13 @@
     float:left;
     width: 70%;
     background-color: #640a0a;
-    height: 100pc;
+    height: 75pc;
 }
 
 .floatright {
     float: right;
     background-color: #5e825e;
-    height: 400px;
+    height: 75pc;
     width: 30%;
     font-size: larger;
 }
