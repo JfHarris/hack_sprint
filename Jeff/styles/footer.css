@@ -1,5 +1,6 @@
 footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
     height: 60px;
     width: 100%;
     position: fixed;
